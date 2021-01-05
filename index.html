@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ficha de inclusão Plano de saúde</title>
+</head>
+
+<body>
+    <div class="flex">
+        <div class="title_principal">
+            <h1>Cadastro de Beneficiários</h1>
+        </div>
+
+        <form class="form_list-pessoas" id="formList">
+            <label for="txtNome">Nome</label><br />
+            <input type="text" name="txtNome" id="nome" /></br /><br />
+            <label for="txtIdade">Idade</label><br />
+            <input type="number" name="txtIdade" id="idade" /></br /><br />
+            <label for="txtPeso">Peso</label><br />
+            <input type="number" name="txtPeso" id="peso" /></br /><br />
+            <label for="txtAltura">Altura</label><br />
+            <input type="number" name="txtAltura" id="altura" /></br /><br />
+            <label for="txtCPF">CPF</label><br />
+            <input type="number" name="txtCPF" id="cpf" /></br /><br />
+            <label for="textDataAdmissão">Data Admissão</label><br />
+            <input type="date" name="txtDataAdmissão" id="dataAdmissao" /></br /><br />
+            <label for="textEndereço">Endereço</label><br />
+            <input type="text" name="txtEndereço" id="endereco" /></br /><br />
+            <label for="textEmail">E-mail</label><br />
+            <input type="text" name="txtEmail" id="email" /></br /><br />
+            <label for="textMeditação">Horas Meditadas nos últimos 7 dias</label><br />
+            <input type="number" name="txtMeditação" id="meditacao" /></br /><br />
+            <select name="cliente" id="cliente">
+                <option value="1">Acme Co</option>
+                <option value="2">Tio Patinhas Banks</option>
+                <option value="" selected>Selecione um cliente</option>
+            </select>
+            <select disabled name="beneficios" id="beneficios">
+                <option value="" selected>Selecione um benefício</option>
+            </select>
+            <button type="submit" class="form_btn" value="addBeneficiario">Adicionar Beneficiário</button>
+        </form>
+        <br /><br />
+        <section class="tab_title" id="norteEuropa">
+            <h2> Ficha de inclusão Plano de saúde Norte Europa</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Data Admissão</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="tab_title" id="pampulhaIntermedica">
+            <h2>Ficha de inclusão Plano de saúde Pampulha Intermédica</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Data Admissão</th>
+                        <th>Endereço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="tab_title" id="dentalSorriso">
+            <h2>Ficha de inclusão Plano odontológico Dental Sorriso</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>CPF</th<>
+                        <th>Peso(kg)</th>
+                        <th>Altura(cm)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section class="tab_title" id="menteSã">
+            <h2>Ficha de inclusão Plano de saúde mental Mente Sã, Corpo São</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Horas meditadas nos últimos 7 dias</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+
+
+.title_principal {
+    font-size: 20px;
+    color: midnightblue;
+    margin-left: 30%;
+    
+}
+
+.form_list-pessoas {
+    font: 14px;
+    margin-left:40%;
+    margin-top: 50px;
+    
+}
+
+.form_btn {
+    margin-left: 2%;
+    width:150;
+    height:30px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+input {
+border-radius: 10px;
+padding: 10px;
+}
+
+.tab_title {
+    font-size: 20px;
+    color: midnightblue;
+    margin-left: 25%;
+}
+
+table, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 70px;
+    margin-left: -25px;
+    padding-right: 65px;
+    padding-left: 55px;
+}
+
+td, tr {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-right: 25%;
+}
